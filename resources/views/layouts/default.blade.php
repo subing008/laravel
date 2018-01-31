@@ -19,7 +19,10 @@
       </div>
     </header>
     <div class="contrainer">
-    @yield('content')
+    <div class="col-md-offset-1 col-md-10">
+      @include('shared._message')
+      @yield('content')
+    </div?
     </div>
   </body>
 </html>

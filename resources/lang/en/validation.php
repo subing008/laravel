@@ -99,9 +99,10 @@ return [
     |
     */
 
+    //安装中文语言包composer require "overtrue/laravel-lang:~3.0"
     'custom' => [
-        'attribute-name' => [
-            'rule-name' => 'custom-message',
+        'name' => [
+            'required' => '用户名不能为空',
         ],
     ],
 
